@@ -1,0 +1,127 @@
+.reviews {
+  background: #fff;
+  padding: 92px 0;
+}
+
+.reviews__list {
+  column-count: 2;
+  column-gap: 26px;
+}
+
+.review {
+  display:  inline-flex;
+  flex-direction: column;
+  background: #F4F5F5;
+  color: #1A1B1E;
+  padding: 50px 30px;
+  margin-bottom: 17px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.person__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: calc(100% - 164px);
+  margin-left: 22px;
+}
+
+.person__img {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.person__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.person__info:hover .person__name {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.person__name {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.75;
+  margin-bottom: 8px;
+}
+
+.person__name::after {
+  display: inline-block;
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 6px;
+  background-image: url("../../img/icons/socials/socials_sprite.png");
+  background-position: -122px -122px;
+}
+
+  .review__tags {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+.tag {
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 35px;
+  background: #E7E7E7;
+  border: none;
+  padding: 9px 18px;
+  font-weight: normal;
+  text-transform: none;
+  margin-right: 7px;
+  transition: background 0.4s ease-in;
+}
+
+.tag:last-child {
+  margin-right: 0;
+}
+
+.tag--active {
+  background: #B9EAE4;
+}
+
+.review__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.review__subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.review__text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #818181;
+  margin-bottom: 34px;
+}
+
+.review__date {
+  font-weight: 600;
+}
+
+.reviews__paginator {
+  margin-top: 50px;
+}
+

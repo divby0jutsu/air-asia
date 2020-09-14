@@ -1,0 +1,26 @@
+.breadcrumbs__list {
+  display: flex;
+}
+
+.breadcrumbs__link {
+  text-decoration: underline;
+}
+
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item::after {
+  display: inline;
+  content: "/";
+  padding: 0 0.2rem;
+}
+
+.breadcrumbs__item:last-child::after{
+  display: none;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  font-weight: bold;
+}

@@ -1,0 +1,113 @@
+.hot-tours {
+  margin-top: 247px;
+}
+
+.hot-tours__title {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 51px;
+}
+
+.hot-tours__title-text {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.36;
+  padding: 0 2px;
+}
+
+.hot-tours__title-icon {
+  margin-left: 7px;
+}
+
+.hot-tours__list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.hot-tours__item {
+  width: calc(100%/3 - 18px);
+}
+
+.hot-tour {
+  display: flex;
+  flex-direction: column;
+  min-height: 450px;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.hot-tour__img{
+  display: block;
+  height: 144px;
+  width: 100%;  
+}
+
+.hot-tour__img--river {
+  background: url("../../img/content/offers/river.jpg") center center/cover no-repeat;
+}
+
+.hot-tour__img--pool {
+  background: url("../../img/content/offers/pool.jpg") center center/cover no-repeat;
+}
+
+.hot-tour__img--ocean {
+  background: url("../../img/content/offers/ocean.jpg") center center/cover no-repeat;
+}
+
+.hot-tour__content {
+  padding: 30px 22px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hot-tour__subtitle {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hot-tour__info {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #666;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.hot-tour__info-block, .hot-tour__info-desc, .hot-tour__info-icon {
+  display: flex;
+}
+
+.hot-tour__info-block{
+  width: 100%;
+  align-items: flex-end;
+}
+
+
+.hot-tour__info-desc {
+  padding-left: 10px;
+}
+
+.hot-tour__desc {
+  margin-top: 18px;
+  margin-bottom: 25px;
+  color: #303030;
+  line-height: 1.5;
+}
+
+.hot-tour__content button {
+  margin-top: auto;
+  padding: 17px 29px;
+}
+
+
+
+.hot-tour__button--active {
+  background-color: #F5170E;
+  color: #fff;
+}
